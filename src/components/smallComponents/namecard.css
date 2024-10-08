@@ -1,0 +1,29 @@
+.card{
+    border:4px solid whitesmoke;
+    width:250px;
+    height:280px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{
+    scale: 1.025;
+    cursor: pointer;
+    transition: all 300ms;
+    z-index: 2;
+}
+
+.image {
+    flex:2;
+    object-fit: cover;
+}
+
+.names{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,37 @@
+.footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    background-color: white;
+}
+.footer_container > *,
+.footer_row > *,
+.logo_footer > *,
+.company > *,
+.service > *,
+.contact > *,
+.links > p{
+    background-color: white;
+    color:black
+}
+a {
+    background-color: white;
+}
+.footer_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:80px;
+}
+.footer_row > *{
+    flex:1;
+}
+
+.company,
+.service,
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}

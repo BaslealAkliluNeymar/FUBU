@@ -1,0 +1,95 @@
+.service_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width:100%;
+  }
+.service_container > .row,
+.row > .about,
+.about > .services-inside,
+.about > .services-inside,
+.about > h1,
+.services-inside > .left_about,
+.services-inside > .right_about,
+.right_about > h1,
+.right_about > p,
+.left_about > h1,
+.left_about > p ,
+span{
+    background-color: white;
+    color:black;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:600px;
+    width:100vw;
+    
+}
+.about_header{
+    margin-top:2.5rem;
+    font-size: 3.5rem;
+}
+.about-inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+.left_about span{
+    font-weight: bolder;
+}
+.left_about h1{
+    letter-spacing: 1.25px;
+    font-weight: 100;
+}
+.right_about h1{
+    font-size: 3rem;
+}
+.left_about h1,
+.right_about h1,
+.right_about p{
+    color:inherit;
+}
+.left_about{
+    flex-direction: column;
+}
+.left_about,
+.right_about{
+    width:100%;
+    height:25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid red; */
+}
+
+.left_about span{
+    font-size:5rem;
+}
+
+.services-inside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+}
+
+.left_service{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.left_service > p{
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.about_statment_parent{
+    background-color: white;
+}
+.statement_section{
+    /* height:500px; */
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.statment_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    background-color: white;
+}
+
+.statment_container > .right > h1,
+.statment_container > .right > p,
+.statment_container >  .right{
+    color: black;
+    background-color: white;
+} 
+
+.left,
+.right{
+    background-color: inherit;
+}

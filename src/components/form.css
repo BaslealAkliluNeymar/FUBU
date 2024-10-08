@@ -1,0 +1,79 @@
+.services_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(172, 169, 169);
+    height: 500px;
+}
+
+.services_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:400px;
+    background-color:rgb(172, 169, 169);
+    padding:6.95rem;
+}
+
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(172, 169, 169);
+    width:100%;
+    height:300px;
+    /* width:90%;  */
+}
+
+.services_container > .services_row,
+.services_row > .form_container,
+.form_container > .services_left,
+.services_left > .services_text,
+.services_text > p ,
+.services_text > h1,
+.services_left > .services_contact,
+.services_contact > p,
+.services_right > .services_form,
+.services_form > form ,
+form > input,
+form > textarea
+{
+    background-color:rgb(172, 169, 169);
+    color:black;
+}
+.services_left{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    flex:1;
+}
+
+.services_right{
+    flex:1;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+form > input{
+    border-radius: 10px;
+    height:40px;
+    width:200px;
+}
+.services_right > .services_form > form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.services_container > .services_row > .form_container >.services_left >.services_text{
+    background-color:rgb(172, 169, 169);
+}

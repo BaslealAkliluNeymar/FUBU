@@ -1,0 +1,9 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    max-width: 100rem;
+    margin:0 auto;
+    /* gap:20px; */
+    /* border:1px solid red; */
+    box-sizing: border-box;
+}

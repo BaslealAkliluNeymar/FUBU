@@ -1,0 +1,8 @@
+export {default as Home} from '../pages/Home/Home'
+export {default as About} from '../pages/About/About'
+export {default as Services} from '../pages/Services/Services'
+export {default as Local} from '../pages/Local/Local'
+export {default as International} from '../pages/International/International'
+export {default as Donate} from '../pages/Donate/Donate'
+export {default as Contact} from '../pages/Contact/Contact'
+export {default as NotFound} from '../pages/NotFound/NotFound'
